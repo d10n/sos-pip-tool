@@ -1,0 +1,17 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+# sos_pip_tool.py
+
+# Authors: d10n
+# No copyright
+# Public domain
+
+import sys
+try:
+    import _preamble
+except ImportError as ex:
+    _preamble = None
+    sys.exc_clear()
+
+from sos_pip_tool import sospiptool
+sospiptool.main()

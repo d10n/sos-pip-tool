@@ -1,0 +1,12 @@
+*.py[cod]
+__pycache__/
+
+build/
+dist/
+
+MANIFEST
+
+.idea/
+
+# Compiled translations not ignored for ease of deployment
+# *.mo

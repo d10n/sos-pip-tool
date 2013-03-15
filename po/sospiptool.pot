@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sos_pip_tool 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-15 14:39-0000\n"
+"PO-Revision-Date: 2013-03-15 14:39-0000\n"
+"Last-Translator: \n"
+"Language-Team: d10n <david@bitinvert.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ../sos_pip_tool\n"
+
+#: ../sos_pip_tool/gui_skeleton.py:19
+msgid "SOS PiP Tool"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:30
+msgid "Initial setup: installing background templates..."
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:32
+msgid "Adding Clip..."
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:34
+msgid "Loading..."
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:91
+msgid "Clip Name"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:93
+msgid "Background Image"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:95
+msgid "PiP Image"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:97
+msgid "PiP Scale"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:99
+msgid "Category"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:108 ../sos_pip_tool/gui_skeleton.py:116
+msgid "Select a file"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:109 ../sos_pip_tool/gui_skeleton.py:117
+msgid "Supported Image Types"
+msgstr ""
+
+#. TRANSLATORS: "extra" is the standard SOS extra category
+#: ../sos_pip_tool/gui_skeleton.py:129
+msgid "extra"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:129
+msgid "sponsors"
+msgstr ""
+
+#: ../sos_pip_tool/gui_skeleton.py:133
+msgid "&Add Clip"
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:60
+msgid "Information"
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:67
+msgid "Error"
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:80
+msgid "Clip name is empty."
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:82
+msgid "No background image is selected."
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:84
+msgid "No PiP image is selected."
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:86
+msgid "Clip category is empty."
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:92
+msgid "All fields must be filled in."
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:105
+msgid "A clip with this name already exists. Replace?"
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:106
+msgid "Confirm Replacement"
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:178
+msgid "Permission error creating clip directory."
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:246
+msgid "Clip \"{}\" successfully added."
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:247
+msgid ""
+"To activate the changes, perform the following actions in SOS Stream GUI:"
+msgstr ""
+
+#: ../sos_pip_tool/sospiptool.py:249
+msgid ""
+"Library -> Update Library...\n"
+"Library -> (all/{})"
+msgstr ""
