@@ -4,7 +4,7 @@ SOS PiP Tool
 
 A simple Picture-in-Picture clip creation tool for Science On a Sphere.
 
-.. image:: http://d10n.github.com/sos-pip-tool/screenshot.png
+.. image:: http://dl.dropbox.com/u/34148684/sos-pip-tool-screenshot.png
    :alt: Screenshot
 
 Installation
@@ -14,10 +14,12 @@ Easy mode
 ---------
 1. Log in as ``sos``
 2. Open the terminal (Ctrl + Alt + T)
-3. Paste this (Ctrl + Shift + V)::
+3. Paste these lines, one at a time (Ctrl + Shift + V)::
 
     sudo apt-get install -y python-pip python-wxgtk2.8 imagemagick
-    sudo pip install http://d10n.github.com/sos-pip-tool/sos-pip-tool_0.1.tar.gz
+    sudo pip install http://dl.dropbox.com/u/34148684/sos_pip_tool-0.1.tar.gz
+    which rehash && rehash
+    sospiptool --make-shortcut
 
    * Enter the ``sos`` account password when prompted
 
