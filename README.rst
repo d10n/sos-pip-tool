@@ -17,7 +17,7 @@ Easy mode
 3. Paste these lines, one at a time (Ctrl + Shift + V)::
 
     sudo apt-get install -y python-pip python-wxgtk2.8 imagemagick
-    sudo pip install http://dl.dropbox.com/u/34148684/sos_pip_tool-0.1.tar.gz
+    sudo pip install http://dl.dropbox.com/u/34148684/sos_pip_tool-0.1a.tar.gz
     which rehash && rehash
     sospiptool --make-shortcut
 

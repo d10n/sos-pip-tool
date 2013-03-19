@@ -123,7 +123,7 @@ def save_safe_image(clip_out_dpath, image_in_fpath):
     #             # img.type 'colorseparation' crashes SOS
     #         img.save(filename=image_out_fpath)
     # else:
-    convert(image_in_fpath, image_out_fpath)
+    convert(image_in_fpath + '[0]', image_out_fpath)
 
 
 def save_thumbnails(thumb_out_dpath, pip_in_fpath):
@@ -148,13 +148,13 @@ def save_thumbnails(thumb_out_dpath, pip_in_fpath):
         os.path.join(thumb_out_dpath, 'thumbnail_small.jpg')
 
     convert(
-        pip_in_fpath,
+        pip_in_fpath + '[0]',  # [0] = first frame of animation
         '-resize',
         '800x800!',  # ! allows aspect ratio change
         thumb_big_fpath
     )
     convert(
-        thumb_big_fpath,  # Save time converting from a huge image
+        thumb_big_fpath + '[0]',  # Save time converting from a huge image
         '-resize',
         '128x128!',
         thumb_small_fpath
