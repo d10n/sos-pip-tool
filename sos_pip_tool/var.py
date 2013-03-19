@@ -11,7 +11,7 @@ import os
 
 NAME = 'sos_pip_tool'
 DOMAIN = 'sospiptool'
-VERSION = '0.1a'
+VERSION = '0.1b'
 # USE_WAND = False
 
 MEDIA_DPATH = os.path.realpath('/shared/sos/media/')

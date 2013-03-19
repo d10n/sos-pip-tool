@@ -92,7 +92,7 @@ def get_pip_size(pip_fpath, pip_scale):
     #     with wand.image.Image(filename=pip_fpath) as img:
     #         aspect_ratio = float(img.size[0]) / img.size[1]
     # else:
-    width, height = identify('-format', '%w %h', pip_fpath).split()
+    width, height = identify('-format', '%w %h', pip_fpath + '[0]').split()
     aspect_ratio = float(width) / float(height)
 
     if aspect_ratio > 1:  # w>h

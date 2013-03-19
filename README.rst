@@ -17,7 +17,7 @@ Easy mode
 3. Paste these lines, one at a time (Ctrl + Shift + V)::
 
     sudo apt-get install -y python-pip python-wxgtk2.8 imagemagick
-    sudo pip install http://dl.dropbox.com/u/34148684/sos_pip_tool-0.1a.tar.gz
+    sudo pip install --upgrade http://dl.dropbox.com/u/34148684/sos_pip_tool-0.1b.tar.gz
     which rehash && rehash
     sospiptool --make-shortcut
 
@@ -29,6 +29,8 @@ Dependencies:
  * `wxPython 2.8 <http://www.wxpython.org/>`_
  * `imagemagick <http://www.imagemagick.org/>`_
  * `sh <https://pypi.python.org/pypi/sh>`_
+
+You can install SOS PiP Tool from git with pip by substituting the .tar.gz link with the git repo address.
 
 Usage
 =====
@@ -47,9 +49,9 @@ Public domain. See ``UNLICENSE``
 Todo
 ====
 
- * Previews.
- * Support video background and PiP. This could make previews harder.
- * Automatic .po compilation.
+* Previews.
+* Support video background and PiP. This could make previews harder.
+* Automatic .po compilation.
 
 Notes
 =====
